@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(27, 26, 26);
+}
+main {
+  width: 75%;
+  margin: 65px auto;
+  display: flex;
+}
+.img,
+.details,
+.price,
+.details-child,
+.content {
+  display: flex;
+}
+.img {
+  width: 50%;
+  background-image: url(../img/burgerKing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.details,
+.price {
+  background-color: white;
+}
+.details {
+  width: 35%;
+  flex-direction: column;
+  position: relative;
+  padding: 20px;
+}
+.price {
+  width: 15%;
+  background: linear-gradient(#da291c, #f2a900);
+  align-items: center;
+  justify-content: center;
+}
+.price h1 {
+  font-size: 25px;
+  font-family: "Nova Square", cursive;
+}
+.header,
+.content,
+.footer {
+  width: 100%;
+}
+.header,
+.footer {
+  height: 100px;
+  display: flex;
+}
+.content {
+  height: 350px;
+  flex-direction: column;
+  justify-content: center;
+}
+.content h1 {
+  color: #dc3545;
+  font-size: 60px;
+  font-family: "Bangers", cursive;
+  letter-spacing: 5px;
+  margin: 15px;
+}
+.details-child {
+  width: calc(100% / 3);
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.details-child h1 {
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin-left: 10px;
+  font-family: "Bangers", cursive;
+}
+.details-emoji {
+  font-size: 25px;
+}
+.details-child p {
+  font-family: "Nova Square", cursive;
+  font-size: 15px;
+  font-weight: bold;
+}
+table td {
+  padding: 5px;
+}
+.price {
+  background-color: #dc3545;
+}
+
